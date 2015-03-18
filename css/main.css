@@ -1,0 +1,236 @@
+html{
+  font-size: 100%;
+  font-family: 'Noto-sans';
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+*, *:before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+main{
+  margin: 0;
+}
+header{
+  background-color:#e7001d;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  padding: 2em;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.medallion{
+  position: absolute;
+  left: 42.5%;
+  width: 15%;
+}
+
+.char h2{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
+
+.char h1{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-style: normal;
+}
+
+h1{
+  font-size:2em;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  font-family: 'Noto Sans', sans-serif;
+  font-style: italic;
+  margin: 0;
+}
+
+.char{
+  font-size: 1.5em;
+  position: relative;
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 1.5em;
+  width:100%;
+  margin: 10px;
+  margin-bottom: 1em;
+  font-size: 12px;
+}
+
+nav li{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 100%;
+  background-color: #222222;
+  color: white;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  width: 50%;
+  float: left;
+  display: inline;
+  margin: 0;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+ol{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+
+figure{
+  margin: 0;
+}
+
+nav a{
+  padding: 0 0.5rem;
+}
+
+.banner img{
+  width: 100%;
+}
+
+.banner{
+  position: relative;
+}
+
+.banner h1{
+  position: absolute;
+  text-align: center;
+  bottom: .3em;
+  width: 100%;
+}
+.dragon img{
+  width: 40%;
+  padding-top: 2.5em;
+  margin: 0;
+}
+
+.dragon{
+  background-color: #e4c22a
+}
+
+h2{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  padding-top: 1em;
+  margin: 0;
+}
+
+.drag{
+  font-family: 'Noto Sans', sans-serif;
+  font-style: italic;
+  padding: 1em;
+  margin: 0;
+}
+
+.goat{
+  background-color: black;
+  margin: 0;
+}
+
+.goat img{
+  width: 40%;
+}
+
+.goat h2{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  padding: 1em;
+  padding-top: 1em;
+  margin: 0;
+  color: white;
+}
+
+.goat p{
+  font-family: 'Noto Sans', sans-serif;
+  padding: 1em;
+  padding-top: 1em;
+  margin: 0;
+  color: white;
+}
+
+.rooster{
+  background-color: red;
+  margin: 0;
+}
+
+.rooster img{
+  width: 40%
+}
+
+.rooster h2{
+  font-family: 'Noto Sans', sans-serif;
+  text-align: center;
+  padding: 1em;
+  padding-top: 1em;
+  margin: 0;
+  color: white;
+}
+
+.rooster p{
+  font-family: 'Noto Sans', sans-serif;
+  padding: 1em;
+  padding-top: 1em;
+  margin: 0;
+  color: white;
+}
+
+.ox{
+  background-color: #e4c22a
+}
+
+.ox img{
+    width: 40%
+  }
+
+  .ox h2{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    padding: 1em;
+    padding-top: 1em;
+    margin: 0;
+    color: black;
+  }
+
+  .ox p{
+    font-family: 'Noto Sans', sans-serif;
+    padding: 1em;
+    padding-top: 1em;
+    margin: 0;
+    color: black;
+}
+
+footer{
+  background-color: black;
+  font-family: 'Noto Sans', sans-serif;'
+  color: white;
+  text-align: center;
+  padding: 2em;
+  font-size: 12px;
+  text-decoration: underline;
+}

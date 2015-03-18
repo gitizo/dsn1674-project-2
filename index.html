@@ -2,31 +2,34 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>robot</title>
+  <title>Chinese Zodiak</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Noto-Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <header>
-    生肖
-    Chinese Zodiac
+  <header id="top">
+    <img class="medallion" src="images/medallion.svg" alt="medallion">
+<div class="char">
+  <h1>生肖</h1>
+  <h2>Chinese Zodiac</h2>
+  </div>
   </header>
 
   <nav>
     <ol>
-      <li>龍 — Dragon</li>
-      <li>羊 — Goat</li>
-      <li>雞 — Rooster</li>
-      <li>牛 — Ox</li>
+      <li><a href="#dragon">龍 — Dragon</a></li>
+      <li><a href="#goat">羊 — Goat</a></li>
+      <li><a href="#rooster">雞 — Rooster</a></li>
+      <li><a href="ox">牛 — Ox</a></li>
     </ol>
   </nav>
 
 <main>
-  <figure>
-    <img class="banner" src="images/banner.jpg" alt="a bug scene">
-    <figcaption>Shēngxiào</figcaption>
-  </figure>
+  <div class="banner">
+    <img src="images/banner.jpg" alt="a bug scene">
+    <h1>Shēngxiào</h1>
+  </div>
 
   <p>The Shēngxiào literally “birth likeness”, is a scheme and systematic plan of future action that relates each year to an animal and its reputed attributes according to a 12-year mathematical cycle and it remains popular in several East Asian countries including China, Vietnam, Korea, Japan, and Thailand.</p>
 </main>
@@ -35,28 +38,32 @@
   <h2 id="dragon">Dragon</h2>
       <img class="dragon-symbol" src="images/dragon-symbol.svg" alt="chinese dragon symbol">
       <img class="dragon" src="images/dragon.svg" alt="black dragon picture">
-      <p>Magnanimous, stately, vigorous, strong, proud, noble, direct, dignified, passionate.</p>
+      <p class="drag">Magnanimous, stately, vigorous, strong, proud, noble, direct, dignified, passionate.</p>
 </div><!--end of dragon-->
 
 <div class="goat">
   <h2 id="goat">Goat</h2>
-      <img class="goat-symbol" src="images/goat-symbol.svg" alt="chinese goat symbol">
       <img class="goat" src="images/goat.svg" alt="black goat picture">
-    <p>Gentle, softhearted, considerate, attractive, hardworking, persistent, thrift.</p>
+      <img class="goat-symbol" src="images/goat-symbol.svg" alt="chinese goat symbol">
+
+  <p class="drag">Gentle, softhearted, considerate, attractive, hardworking, persistent, thrift.</p>
 </div><!--end of goat-->
 
 <div class="rooster">
   <h2 id="rooster">Rooster</h2>
     <img class="rooster-symbol" src="images/rooster-symbol.svg" alt="chinese rooster symbol">
     <img class="rooster" src="images/rooster.svg" alt="black rooster picture">
-    <p>Deep thinkers, honest, bright, communicative, ambitious, capable, warm-hearted.</p>
+    <p class="drag">Deep thinkers, honest, bright, communicative, ambitious, capable, warm-hearted.</p>
 </div><!--end of rooster-->
 
 <div class="ox">
   <h2 id="ox">ox</h2>
-  <img class="ox-symbol" src="images/ox-symbol.svg" alt="chinese ox symbol">
   <img class="ox" src="images/ox.svg" alt="black ox picture">
-  <p>Persistent, simple, honest, straightforward, industrious, patient, cautious.</p>
+  <img class="ox-symbol" src="images/ox-symbol.svg" alt="chinese ox symbol">
+  <p class="drag">Persistent, simple, honest, straightforward, industrious, patient, cautious.</p>
 </div><!--end of ox-->
 
+<footer>
+  <a href="#top">back to top</a>
+</footer>
 </main>
