@@ -29,8 +29,8 @@ header{
 
 .medallion{
   position: absolute;
-  left: 42.5%;
-  width: 15%;
+  left: calc(50% - 37.5px);
+  width: 75px;
 }
 
 .char h2{
