@@ -127,11 +127,11 @@ nav a{
 .dragon img{
   width: 40%;
   padding-top: 2.5em;
-  margin: 0;
+  margin: 1em;
 }
 
 .dragon-symbol{
-  padding: 1.5em;
+
 }
 
 .dragon{
@@ -161,6 +161,9 @@ h2{
   width: 40%;
 }
 
+.goat-symbol{
+margin:1em;
+}
 .goat h2{
   font-family: 'Noto Sans', sans-serif;
   text-align: center;
